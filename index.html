@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamkai | Download</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Cari Script..." onkeyup="searchProduct()" aria-label="Cari produk">
+        <i class="fas fa-search"></i>
+    </div>
+
+    <div class="logo-container">
+        <img src="https://files.catbox.moe/9pj4e6.jpg" alt="ShopLink Logo" class="logo">
+    </div>
+
+    <h2 class="typing"></h2>
+
+    <div class="music-container">
+        <p class="music-text"><i class="fas fa-music"></i> Pilih Musik <i class="fas fa-music"></i></p>
+        <div class="music-controls">
+            <button onclick="playMusic('')">No Music</button>
+            <button onclick="playMusic('https://files.catbox.moe/t8pwlu.mp3')">NEW JEANS - JERSEY CLUB</button>
+            <button onclick="playMusic('https://files.catbox.moe/jexs2d.mp3')">Somebody's Pleasure V2 (Extended Version)</button>
+            <button onclick="playMusic('lagu3.mp3')">Lagu 3</button>
+            <div class="divider"></div>
+        </div>
+    </div>
+
+    <audio id="audioPlayer" loop></audio>
+
+    <section class="products">
+        <h2>Type Case</h2>
+        <div class="divider"></div>
+        <div class="product-list">
+            <div class="product">
+                <h3>Mora Ai Ver14.1.2</h3>
+                <img src="https://files.catbox.moe/0c47cx.jpg">
+                <p class="price">INFO SCRIPT</p>
+                <p class="description">Nama Script : Mora Ai Ver14</p>
+                <p class="description">Type Script : Case</p>
+                <p class="description">Size : 3mb+</p>
+                <p class="description">Enc? : Y</p>
+                <p class="description">Credits : Rizal, Khaled, Ryzen</p>
+                <button onclick="window.location.href='https://www.mediafire.com/file/mgf8pjw18ianzmd/Mora-AI-ver.14-New.zip/file'">Download</button>
+            </div>
+        </div>
+    </section>
+
+ <section class="products">
+        <h2>Type Case</h2>
+        <div class="divider"></div>
+        <div class="product-list">
+            <div class="product">
+                <h3>Coming Soon!</h3>
+                <img src="https://files.catbox.moe/wd4d5x.jpg">
+                <p class="price">INFO SCRIPT</p>
+                <p class="description">Nama Script :</p>
+                <p class="description">Type Script :</p>
+                <p class="description">Size :</p>
+                <p class="description">Enc? :</p>
+                <p class="description">Credits :</p>
+                <button onclick="window.location.href='#'">???</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Dilarang Memperjual Belikan Script Yang Ada Disini</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
