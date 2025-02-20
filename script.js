@@ -2,10 +2,10 @@ document.addEventListener("DOMContentLoaded", function () {
     var typing = new Typed(".typing", {
         strings: [
             "Hallo Everyone",
-            "Semua Script Disini Gratis",
+            "Semua Script Disini Gratis!",
             "Dilarang Memperjual Belikan Script Yamg Ada Disini Ya...",
             ":3",
-            "Powered By Zamkai"
+            "Powered By Vanyla"
         ],
         typeSpeed: 80,
         backSpeed: 40,
